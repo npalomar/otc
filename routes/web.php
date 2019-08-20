@@ -14,3 +14,26 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/otcplaces', function () {
+    return view('otcplaces');
+});
+
+Route::get('/prof', function () {
+    return view('prof');
+});
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
