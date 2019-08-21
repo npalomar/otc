@@ -1,0 +1,169 @@
+body {
+  font-size: 1.7em;
+  font-family: Sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 90px;
+}
+
+main {}
+
+section {}
+
+/*TOURIST IMAGES*/
+.photo-gallery {
+  color:#313437;
+  background-color:#fff;
+}
+
+.photo-gallery p {
+  color:#7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+
+/*Images under Places*/
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* COUPLE OVERLAY */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 3%;
+  right: 4%;
+  background-color: #000;
+  overflow: hidden;
+  width: 94%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 50%;
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* COUPLE CAPTION */
+.cuadro_intro_hover{
+    padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+	.cuadro_intro_hover:hover .caption{
+		opacity: 1;
+		transform: translateY(1px);
+		-webkit-transform:translateY(-150px);
+		-moz-transform:translateY(-150px);
+		-ms-transform:translateY(-150px);
+		-o-transform:translateY(-150px);
+	}
+	.cuadro_intro_hover img{
+		z-index: 2;
+	}
+	.cuadro_intro_hover .caption{
+		position: absolute;
+		top:590px;
+		-webkit-transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;
+		-o-transition:all 0.3s ease-in-out;
+		-ms-transition:all 0.3s ease-in-out;
+		transition:all 0.3s ease-in-out;
+		width: 100%;
+	}
+	.cuadro_intro_hover .blur{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;
+		z-index: 5;
+		position: absolute;
+		width: 100%;
+	}
+	.cuadro_intro_hover .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		height: 300px;
+		text-align: center;
+		top:-20px;
+		width: 100%;
+	}

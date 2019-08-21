@@ -90,7 +90,7 @@
    <section class="jumbotron text-center">
         <div class="container">
           <h1 class="jumbotron-heading">
-            "It doesn’t matter where you go, what matters is who are you travelling with."
+            "It doesn’t matter where you go, what matters is who are you travelling with. xxx"
           </h1>
         </div>
   </section>
