@@ -54,7 +54,7 @@
      <p class="lead">
        Our travellers come in all shapes and sizes, from a wide variety of cultures, nations and backgrounds, and they all share an adventurous spirit, a strong sense of fun and a desire to see the world as it really is.
        Our Adventures have a recommended age range of 18 - 65 and many Travellers are on average, between the ages of 25 and 45.
-       Our Tailor-made Tours can be adapted for people of any age! If you want to know more about people who travel with us!
+       Our Tailor-made Tours can be adapted for people of any age! Join the next trip and travel with us!
      </p>
      <button type="button" class="btn btn-primary btn-lg">View Places</button>
    </div>
@@ -90,7 +90,7 @@
    <section class="jumbotron text-center">
         <div class="container">
           <h1 class="jumbotron-heading">
-            "It doesn’t matter where you go, what matters is who are you travelling with. xxx"
+            "It doesn’t matter where you go, what matters is who are you travelling with."
           </h1>
         </div>
   </section>
