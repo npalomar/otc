@@ -1,11 +1,24 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
+@import url('https://fonts.googleapis.com/css?family=Carter+One|Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=brandon-grotesque');
+@import url('https://fonts.googleapis.com/css?family=capitolium-2');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+<<<<<<< HEAD
 // OTC Design
+=======
+//Font-awesome
+$fa-font-path: "../webfonts";
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+// Custom
+>>>>>>> 717d9acf45f92b4a16c0010a6bd6346225324add
 @import 'custom';
