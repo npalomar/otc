@@ -52,8 +52,8 @@
           </div>
           <div class="footer-menu">
               <ul>
-                <li><a class="nav-link" href="#">CONTACT</a></li>
-                <li><a class="nav-link" href="#">ABOUT</a></li>
+                <li><a class="nav-link" href="/contact">CONTACT</a></li>
+                <li><a class="nav-link" href="/aboutus">ABOUT</a></li>
                 <li><a class="nav-link" href="#">FAQ</a></li>
                 <li><a class="nav-link" href="#">PRIVACY POLICY</a></li>
               </ul>
