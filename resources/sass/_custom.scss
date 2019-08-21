@@ -1,0 +1,589 @@
+<<<<<<< HEAD
+body {
+
+  padding: 20px;
+  text-align: center;
+}
+
+main {}
+
+h1 {
+  font-family: Sans-serif;
+  font-size: 50px;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 40px;
+}
+
+p1 {
+  font-size: 18px;
+}
+
+p2 {
+  font-size: 18px;
+}
+
+p3 {
+  font-size: 30px;
+}
+
+section {}
+
+section .btn-outline {
+  color: white;
+  background-color: transparent;
+  background-image: none;
+  border-color: white;
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+section .btn-outline:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+section .fa {
+  /*background:;*/
+  padding: .5em;
+  color: #424242;
+  border-radius: 4em;
+  width: 2.4em;
+}
+
+iframe .mapouter {
+  margin: center;
+  position:relative;
+  text-align:center;
+  height:500px;
+  width:1080px;
+}
+
+iframe .gmap_canvas {
+  margin: center;
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:1080px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+
+.overlay {
+=======
+body{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.container{
+  margin:0;
+  padding:0;
+}
+
+.nav-item{
+  font-size: 17px !important;
+}
+#hdr_img{
+  margin-bottom:0;
+}
+
+#hm_img{
+position:absolute;
+top:44%;
+padding-left:25%;
+color: #fff;
+font-weight: 500;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 4px;
+font-size: 70px;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+line-height: 24px;
+margin-bottom:0;
+}
+
+#availability {
+    margin-top: -8px;
+    width: 100%;
+    height:75px;
+    clear: both;
+    /*background: rgba(239, 239, 239);*/
+    background: rgba(30,28,26,0.9);
+    /*background: #d5d5d2;
+    border-bottom: 3px solid #dededb;*/
+  }
+
+  #notes{
+    position:absolute;
+    font-family: 'Great Vibes',sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    color: rgba(248, 148, 6);
+  }
+
+#prgh1{
+  padding-top: 20px;
+  font-family: "capitolium-2",serif;
+  font-size: 18px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+  #msg1{
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  color:#931a1d;
+  font-family: 'brandon-grotesque',sans-serif;
+  font-size: 28px;
+  text-rendering: optimizeLegibility;
+  font-weight: 300;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+  }
+
+  #msg1:after {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 50%;
+      width: 120px;
+      height: 1px;
+      background: #ee8f34;
+      margin-left: -60px;
+  }
+/*----------------------------------------------*/
+.img-box1{
+    margin-right: 0;
+    margin-top:50px;
+    width: 1347px;
+    height:525px;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+/*5555555555555555
+.img-box1 {
+  position: relative;
+  width: 100%;
+}*/
+
+.hdr_img1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img-box1 .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.8);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.img-box1:hover .overlay {
+  height: 50%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*---*/
+
+.mb-8 {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+form {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+/*---*/
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+#msg1:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    width: 120px;
+    height: 1px;
+    background: #ee8f34;
+    margin-left: -60px;
+}
+=======
+/*---------------------------------------------*/
+
+  #hm_video{
+    padding-left: 10px;
+    margin-top:50px;
+  }
+
+  #aus{
+    padding-left: 100px;
+  }
+  .container1{
+    width: 100%;
+    bottom:50px;
+    color:#fff;
+  }
+
+  /*----------Disp 5 Slide Overlay---------------------------------*/
+
+  .column{
+    float: left;
+    width: 50%;
+    padding:5px;
+  }
+  .container5{
+      margin-top: 50px;
+      position: relative;
+      width: 100%;
+    }
+
+  .image {
+    margin-left: 90px;
+    display:block;
+    width: 100%;
+    height: 525px;
+
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+  .column:hover .overlay {
+    height: 50%;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/*---------Disp 6 Slide Overlay--------------------------*/
+.redbtn a{
+display: block;
+background: #931a1d;
+text-transform: uppercase;
+font-family: "brandon-grotesque",sans-serif;
+letter-spacing: 2px;
+text-align: center;
+display: inline-block;
+margin-left: 50%;
+margin-top: 30px;
+margin-bottom: 15px;
+border-radius: 2px;
+padding: 10px 40px;
+    color: #fff;
+}
+
+/*---------Disp 7 Slide Overlay--------------------------*/
+
+  .disp7 .column{
+    float: left;
+    width: 28.33%;
+    padding:5px;
+
+  }
+  .container7{
+      margin-top: 50px;
+      position: relative;
+      width: 100%;
+    }
+
+  .container7 .image {
+    margin-left: 150px;
+    display:block;
+    width: 100%;
+    height: 225px;
+
+  }
+
+  /*---------Disp 8 Slide Overlay--------------------------*/
+
+  .disp8 .column{
+    width: 28.33%;
+    padding:5px;
+  }
+  .container8{
+      margin-left: 150px;
+      margin-top: -10px;
+      width: 100%;
+      height:225px;
+      background: #f0f0ef;
+    }
+
+.h48{
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.disp8 p{
+  text-align: center;
+}
+
+
+#pkg {
+    color: #931a1d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#pkgln {
+  content: "";
+  bottom: 0;
+  left: 50%;
+  width: 120px;
+  height: 1px;
+  background: #ee8f34;
+  margin-left: 30%;
+  text-align: center;
+}
+
+/*---------Footer--------------------------*/
+
+.star-img{
+margin-left: 40%;
+margin-right: 0;
+  margin-top: 50px;
+  width:31%;
+  height:40px;
+}
+
+
+.footer{
+      background: url(/image/img/footer.jpg) center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 250px;
+      position:relative;
+      top:100px;
+      z-index:-10;
+    }
+
+  .footer-overlay{
+      position:absolute;
+      height: 150%;
+      width: 100%;
+      top:-80px;
+      background-color: rgba(0,0,0,0.8);
+      z-index:-9;
+    }
+
+  .footer-menu{
+      margin-top:-210px;
+    }
+
+  .footer-menu ul{
+    padding:0px;
+    text-align: center;
+    color: #fff;
+    }
+
+  .footer-menu ul li{
+      display:inline-block;
+      color: #fff;
+      font-weight: bolder;
+    }
+
+  .footer-menu ul li a{
+      color: #fff;
+    }
+
+  .footer-logo{
+      margin-top:110px;
+    }
+
+  .footer-address{
+      padding-left: 200px;
+      margin-top:-130px;
+      font-weight: 300;
+      font-size: 20px;
+      font-style: italic;
+      font-family: "capitolium-2",serif;
+    }
+
+  .footer-contact{
+      padding-left: 450px;
+      margin-top:-125px;
+      font-weight: 300;
+      font-size: 20px;
+      font-style: italic;
+      font-family: "capitolium-2",serif;
+    }
+
+  .footer-follow{
+      padding-left: 800px;
+      margin-top:-65px;
+      font-weight: 300;
+      font-size: 20px;
+      font-style: italic;
+      font-family: "capitolium-2",serif;
+    }
+
+  .s-m{
+      padding-left: 825px;
+      margin-top:-10px;
+      font-size: 30px;
+      color:#a6a49d !important;
+    }
+
+  .copyright{
+      margin-top:130px;
+      text-align: center;
+      width: 100%;
+      color: #fff;
+    }
+>>>>>>> 717d9acf45f92b4a16c0010a6bd6346225324add

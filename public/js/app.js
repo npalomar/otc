@@ -49366,8 +49366,13 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 __webpack_require__(/*! C:\first\htdocs\otc\resources\js\app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! C:\first\htdocs\otc\resources\sass\app.scss */"./resources/sass/app.scss");
+=======
+__webpack_require__(/*! C:\xampp\htdocs\otc\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\otc\resources\sass\app.scss */"./resources/sass/app.scss");
+>>>>>>> 5db6e67c4b77e1c8a43c4d24e0fdecc93a0aa334
 
 
 /***/ })

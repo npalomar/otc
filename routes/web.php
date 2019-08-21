@@ -10,17 +10,35 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::view('/', "gallery");
 
-Route::view('/signup', "signup");
+Route::get('/', function () {
 
-Route::view('/registration', "registration");
+    return view('home');
+});
 
-Route::view('/otcplaces', "otcplaces");
+Route::get('/prof', function () {
+    return view('prof');
+});
 
-Route::view('/welcome', "welcome");
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
 
-Route::view('/slide', "slide");
+Route::get('/contact', function () {
+    return view('contact');
+});
 
+Route::get('/gallery', function () {
+    return view('gallery');
+});
 
-?>
+Route::get('/otcplaces', function () {
+    return view('otcplaces');
+});
+
+Route::get('/prof', function () {
+    return view('prof');
+});
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
