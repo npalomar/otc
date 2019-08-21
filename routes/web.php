@@ -12,11 +12,16 @@
 */
 
 Route::get('/', function () {
-  return view('home');
+
+    return view('home');
 });
 
-Route::get('/about', function () {
-    return view('about');
+Route::get('/prof', function () {
+    return view('prof');
+});
+
+Route::get('/aboutus', function () {
+    return view('aboutus');
 });
 
 Route::get('/contact', function () {

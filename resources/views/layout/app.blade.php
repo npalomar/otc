@@ -2,6 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
+    <title>OTC About</title>
+    <link rel="stylesheet" href="/css/app.css">
+
+
+  </head>
+
+  <body>
+    @yield('content')
+  </body>
+
+=======
     <title>Olya's Travel Connection</title>
     <link rel="stylesheet" href="/css/app.css"/>
   </head>
@@ -60,4 +72,5 @@
       </div>
     </footer>
   </body>
+>>>>>>> 717d9acf45f92b4a16c0010a6bd6346225324add
 </html>
