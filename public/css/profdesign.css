@@ -1,5 +1,7 @@
 body{
   padding: 20px;
+  margin-top:20px;
+  background-color:#e9ebee;
 }
 
 img {
@@ -9,6 +11,15 @@ img {
 .md-avatar.size-4 {
   width: 110px;
   height: 110px;
+}
+
+button {
+  height:20px;
+  width:100px;
+  margin: -20px -50px;
+  position:relative;
+  top:50%;
+  left:50%;
 }
 
 .checked {
@@ -63,4 +74,80 @@ img {
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+}
+
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+
+.be-comment-block {
+    margin-bottom: 25px !important;
+    border: 1px solid #edeff2;
+    border-radius: 2px;
+    padding: 25px 30px;
+    border:1px solid #ffffff;
+}
+
+.comments-title {
+    font-size: 16px;
+    color: #262626;
+    margin-bottom: 15px;
+    font-family: 'Conv_helveticaneuecyr-bold';
+}
+
+.be-ava-comment {
+    width: 30px;
+    height: 30px;
+    border-radius: 25%;
+}
+
+.be-comment-content {
+    margin-left: 30px;
+}
+
+.be-comment-content span {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.be-comment-name {
+    font-size: 13px;
+    font-family: 'Conv_helveticaneuecyr-bold';
+}
+
+.be-comment-content a {
+    color: #383b43;
+}
+
+.be-comment-content span {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.be-comment-time {
+    text-align: right;
+}
+
+.be-comment-time {
+    font-size: 11px;
+    color: #b4b7c1;
+}
+
+.be-comment-text {
+    font-size: 13px;
+    line-height: 18px;
+    color: #7a8192;
+    display: block;
+    background: #f6f6f7;
+    border: 1px solid #edeff2;
+    padding: 15px 20px 20px 20px;
 }
