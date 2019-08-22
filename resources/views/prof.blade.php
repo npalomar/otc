@@ -10,7 +10,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
         <title>Profile</title>
 
   </head>
@@ -23,18 +23,18 @@
           <div class="card testimonial-card">
             <div class="card-up info-color"></div>
             <div class="avatar mx-auto white">
-              <img src="http://localhost/otc/public/image/img/profile.png" class="rounded-circle img-fluid">
+              <br>
+              <img src="http://localhost/otc/public/image/img/profile.png" class="rounded-circle img-fluid" width="250" height="300">
             </div>
             <div class="card-body">
               <h4 class="font-weight-bold mb-4">KIM DIZOR</h4>
               <hr>
-              <p class="dark-grey-text mt-4"><i class="fa fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet eos
-                adipisci, consectetur adipisicing elit.</p>
+              <p class="dark-grey-text mt-4"><i class="fa fa-quote-left pr-2"></i>Network Engineer. Master of the Universe!</p>
 
                 <button type="button" class="btn btn-info">Invite</button>
                 <br>
                 <br>
-                <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+
             </div>
           </div>
         </div>
@@ -46,7 +46,9 @@
                   <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
               </div>
+              <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
             </div>
+
             <br>
             <br>
               <div class="row">
@@ -140,6 +142,63 @@
         </div>
 
           <hr>
+
+        <div class="container1">
+          <div class="be-comment-block">
+          	<h4 class="comments-title">Companion Feedback</h4>
+
+            <div class="row">
+              <div class="col-md-2">
+              	<div class="be-comment">
+              		<div class="be-img-comment">
+              				<img src="http://localhost/otc/public/image/img/comment1.jpg" alt="" class="be-ava-comment" width="130" height="130">
+              		</div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <br>
+            		<div class="be-comment-content">
+            				<span class="be-comment-name">
+            					<a href="###">Pia Wurtzbach</a>
+            					</span>
+            				<span class="be-comment-time">
+            					<i class="fa fa-clock-o"></i>
+            					May 27, 2019 at 3:14am
+            				</span>
+
+            			<p class="be-comment-text">
+            				Kim is very naughty guy. I don't want to travel with him anymore!!! Pervert!
+            			</p>
+            		</div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-2">
+              	<div class="be-comment">
+              		<div class="be-img-comment">
+              				<img src="http://localhost/otc/public/image/img/comment2.jpg" alt="" class="be-ava-comment" width="130" height="130">
+              		</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <br>
+            		<div class="be-comment-content">
+            				<span class="be-comment-name">
+            					<a href="###">Angelina Jollie</a>
+            					</span>
+            				<span class="be-comment-time">
+            					<i class="fa fa-clock-o"></i>
+            					June 27, 2019 at 3:20pm
+            				</span>
+            			<p class="be-comment-text">
+            				I love Kim's eyes. I just get lost in them! He always makes me smile and made the trip extra special!
+                    Hoping to have a lasting friendship with him in the future!
+            			</p>
+            		</div>
+              </div>
+            </div>
 
 
 
